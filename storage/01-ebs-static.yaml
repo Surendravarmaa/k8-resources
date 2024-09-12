@@ -28,7 +28,7 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx-static
+  name: nginx-static-1
   labels:
     purpose: ebs-static-1
     project: expense
