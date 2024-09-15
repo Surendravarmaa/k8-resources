@@ -55,4 +55,5 @@ spec:
     purpose: efs-static
   ports:
   - protocol: TCP
-    port: 80 #serv
+    port: 80 #service
+    targetPort: 80
