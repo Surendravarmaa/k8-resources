@@ -15,3 +15,12 @@ spec:
   containers:
   - name: with-node-affinity
     image: nginx
+  tolerations:
+  - key: "project"
+    value: "expense"
+    operator: "Equal"
+    effect: "NoSchedule"
+  - key: "project"
+    operator: "Exists"
+    effect: "NoSchedule"
+  
