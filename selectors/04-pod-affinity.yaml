@@ -16,7 +16,7 @@ kind: Pod
 metadata:
   name: pod-2
   labels:
-    name: pod-2
+    name: pod-1
     purpose: affinity
 spec:
   affinity:
