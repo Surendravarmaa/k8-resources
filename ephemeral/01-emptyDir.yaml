@@ -40,7 +40,7 @@ spec:
     - name: nginx-logs
       mountPath: /var/log/nginx/
   volumes:
-  - name: naginx-logs
+  - name: nginx-logs
     emptyDir: {}
   - name: filebeat-config
     configMap:
